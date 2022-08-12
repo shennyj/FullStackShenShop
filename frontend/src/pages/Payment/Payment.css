@@ -1,0 +1,90 @@
+.login{
+    background-color:#E8E8E8;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loginWrapper{
+    width:50%;
+    height:90%;
+    padding:3rem;
+}
+form{
+    height:500px;
+    padding:20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+input{
+    height:50px;
+    border-radius: 10px;
+    border:1px solid gray;
+    font-size:20px;
+    padding:0 1rem;
+}
+input:focus{
+    outline:none;
+}
+label{
+    text-align: start;
+    font-weight:500;
+}
+button:focus{
+    outline:none;
+
+}
+button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    transition: 0.4s;
+
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(48, 25, 52,1);
+
+  }
+  button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(48, 25, 52,.6);
+    background-color: rgba(52, 52, 52,1);
+  }
+
+
+  .register{
+      text-align: left;
+      padding:20px;
+        font-size: 15px;
+  }
+  .registerText{
+      font-weight:500;
+  }
+  .payment{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size:1.5rem;
+      padding:.5rem;
+  }
+  label{
+      margin-right: 20px;
+  }
+
+  input{
+     width:20px;
+
+  }
+  form{
+      height:200px;
+  }

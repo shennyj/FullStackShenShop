@@ -1,0 +1,113 @@
+.productPage{
+    padding:2rem;
+    height:100vh;
+}
+.buttonDiv{
+
+    padding:2rem;
+}
+.productPage .backButton{
+    text-decoration: none;
+    font-size:1.1rem;
+    font-weight:500;
+
+}
+.product{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    margin-bottom: 20px;;
+}
+h4{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.productImage{
+    flex:1.5;
+    width:40%;
+    height:40%;
+    object-fit:contain;
+}
+.productDetails{
+    flex:1;
+}
+.formArea{
+    margin-bottom: 40px;
+}
+.listGroupItem{
+    margin-top: 20px;
+    padding:20px !important;
+}
+.productName{
+    padding:1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.rating{
+    margin-top:40px;
+    padding:1.2rem;
+    text-align: center;
+}
+.productPrice{
+    padding:1.2rem;
+    text-align: center;
+}
+.productDesc{
+    padding:1.2rem;
+    font-size:.9rem;
+}
+.productSummary{
+    flex:1;
+    padding:2rem;
+}
+.summaryPrice{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:1rem;
+}
+select{
+    width:50px;
+}
+.stock{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.countStock{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.add{
+    text-align: center;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+}
+.add button{
+    text-align: center;
+    padding:.5rem 1.5rem;
+    display:block;
+  border-radius:100px;
+  border:none;
+  font-size:1em;
+  position:relative;
+  background:#6c757d;
+  cursor:pointer;
+  overflow:hidden;
+  transition:transform 0.1s;
+  z-index:1;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.add button:hover{
+    transform:scale(1.1);
+  }
+.add button:disabled{
+    cursor:not-allowed;
+}
+.iclass{
+    margin-right: 10px;
+}

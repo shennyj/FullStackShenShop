@@ -1,0 +1,47 @@
+header{
+    height:69px !important;
+    margin-bottom: 50px;
+}
+
+.nav{
+    margin-left:20rem;
+    justify-self:flex-end;
+}
+nav{
+    height:100px;
+}
+.headerWrapper{
+    min-width:100vh;
+}
+.header h1{
+    color:white;
+}
+.header header{
+    cursor:pointer;
+}
+.headerLinks{
+    display:flex;
+
+
+}
+.headerLinks div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    margin:0 2rem;
+}
+
+.headerUser,.headerCart{
+    color:white;
+    margin-left:10px;
+}
+@media screen and (max-width:900px){
+    .header{
+        padding:0;
+    }
+    .headerLinks{
+        margin-right: 200px;
+    }
+
+}

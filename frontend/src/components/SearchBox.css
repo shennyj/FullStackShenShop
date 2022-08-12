@@ -1,0 +1,30 @@
+.inputSearchBox{
+    width:100%;
+}
+.form{
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+
+}
+.inputForm{
+    display:block;
+
+}
+.searchDiv{
+    display:flex;
+    justify-content: center;
+}
+.buttonSearchBox{
+    height:60px;
+    margin-top:4rem;
+    width:60px;
+}
+.formSubmitBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+
+}

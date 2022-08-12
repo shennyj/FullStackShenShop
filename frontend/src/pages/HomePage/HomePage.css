@@ -1,0 +1,30 @@
+.products{
+    grid-gap:4rem;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    padding:0 2rem;
+}
+
+.latestProduct{
+    padding:1rem;
+    margin-left:1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.paginate{
+    bottom:0;
+    margin-top: 10rem;;
+}
+.rowDiv{
+    margin-bottom: 10rem !important;
+}
+.paginator{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+
+.productListHome{
+    padding:2rem;
+}
