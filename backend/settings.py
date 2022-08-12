@@ -204,4 +204,6 @@ AWS_SECRET_ACCESS_KEY = 'jjikprTtD3tTxZHlpEckdCOS4AxgG86AzowD3T6M'
 AWS_STORAGE_BUCKET_NAME = 'shenshop-bucket'
 
 if os.getcwd() == '/app':
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True
     DEBUG = False

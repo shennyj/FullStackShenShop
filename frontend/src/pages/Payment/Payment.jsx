@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import './Payment.css'
 import {useHistory} from 'react-router-dom'
 import { useDispatch,useSelector } from 'react-redux'
-import Checkout from '../../components/Checkout'
 import { savePaymentMethod } from '../../actions/cartActions'
 const Payment = () => {
 
@@ -28,7 +27,6 @@ const Payment = () => {
 return (
   <div className="login">
       <div className="loginWrapper">
-      <Checkout step1 step2 step3/>
       <h2 className="signIn">Select Payment Method</h2>
       <form onSubmit={submitHandler}>
         <div className="payment">

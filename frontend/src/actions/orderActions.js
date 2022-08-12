@@ -27,7 +27,7 @@ import {
 import { CART_CLEAR_ITEMS } from '../constants/cartConstants'
 import axios from 'axios'
 
-export const createOrder = (order) => async (dispatch,getState) => {
+export const createOrder = (order) => async (dispatch, getState) => {
     try {
         dispatch({
             type: ORDER_CREATE_REQUEST
@@ -63,10 +63,13 @@ export const createOrder = (order) => async (dispatch,getState) => {
         localStorage.removeItem('cartItems')
 
 
-    } catch(err){
-        dispatch({type:ORDER_CREATE_FAIL,payload:err.response
-            &&err.response.data.detail ? err.response.data.detail
-            :err.message})
+    } catch (error) {
+        dispatch({
+            type: ORDER_CREATE_FAIL,
+            payload: error.response && error.response.data.detail
+                ? error.response.data.detail
+                : error.message,
+        })
     }
 }
 export const getOrderDetails = (id) => async (dispatch, getState) => {

@@ -8,10 +8,10 @@
     text-align: center;
 }
 
-.loginWrapper{
-    width:50%;
-    height:90%;
-    padding:3rem;
+.loginWrapperShip{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .shippingForm{
     height:500px;

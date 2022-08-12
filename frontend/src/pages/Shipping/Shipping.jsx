@@ -3,7 +3,6 @@ import './Shipping.css'
 import {useHistory} from 'react-router-dom'
 import { useDispatch,useSelector } from 'react-redux'
 import { saveShippingAddress } from '../../actions/cartActions'
-import Checkout from '../../components/Checkout'
 const Shipping = () => {
     const history = useHistory()
     const cart = useSelector(state=>state.cart)
@@ -25,8 +24,7 @@ const Shipping = () => {
 
   return (
     <div className="login">
-        <div className="loginWrapper">
-        <Checkout step1 step2/>
+        <div className="loginWrapperShip">
         <h1 className="signIn">Shipping</h1>
         <form onSubmit={submitHandler} className="shippingForm">
             <label htmlFor="address">Address</label>
